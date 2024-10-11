@@ -46,13 +46,15 @@ Just like workloads in the cloud, your teams will become fit-to-purpose and high
 
 * Level 1: Teams are exploring cloud native tooling, primarily Kubernetes.  However, this is not just for the sake of exploring, but rather it is with the goal of reaching production.  All work is generally taking place within a formal MVP program.
 
-* Level 2: We are starting to formalize central services and responsibilities, including the consolidation of tooling, as well as the deprecation of non-cloud native tooling.
+* Level 2: We are starting to formalize central services and responsibilities, perhaps in Centers of Excellence focused on a specific technical domain, including the consolidation of tooling. E.g. one of these Centers may focus on cloud engineering and another on middleware release. Developers are starting to liaise directly with these providers. We may also begin to see the deprecation of non-cloud native tooling.
 
-* Level 3: You’re really starting to see a high degree of centralisation, with clear and understood responsibilities. A balance must be struck, however, between flexibility and velocity: exceptions or customizations to standardized support may introduce validation and approval bottlenecks.
+* Level 3: You’re really starting to see a high degree of consolidation of services to development teams, with clear and understood responsibilities and interfaces. A balance must be struck, however, between flexibility and velocity: exceptions or customizations to standardized support may introduce validation and approval bottlenecks. The cognitive load on development teams and individual developers on integrating the various capabilities may be distracting from their core responsibilities.
 
-* Level 4: As the platform becomes more established, you can really start the process of decentralization. You can work on the development of a self-service portal incorporating the policies and processes of your organization to enable developer service ownership.
+* Level 4: The organization at level 4 will be exploring ways to explicitly structure their platform for centrally exposing or combining all the various services for developer consumption. Dev teams have become overwhelmed through having to inependently consume services. There is a high degree of duplication of tooling, techniques, and learning among teams. At this point, the organization will begin exploring a Platform Engineering strategy, with the platform explicitly defined as a product for the organization. The platform will aim to consolodate many of the capabilities development teams have been consuming directly into a standardized set of interfaces easily accessed on a self-service basis through portals, APIs, and CLIs. This will incorporate the policies and processes of your organization.
 
 * Level 5: You now have self-provisioning amongst different groups, along with organizational acceptance of the self-service portal. The business benefits from service ownership.
+The business and product delivery teams are benefiting from intuitive access to technical capabilities through a set of common and familiar interfaces.
+*** NOTE - Maybe consider e.g. https://k8sgpt.ai/ ***
 
 ## Developer Agility
 
